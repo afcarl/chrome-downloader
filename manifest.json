@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Text Downloader",
+  "description": "Download just the text from the page",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "name": "Download the page text"
+  },
+
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
