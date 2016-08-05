@@ -17,4 +17,4 @@ Navigate to `chrome://extensions/`, check "Developer Mode" in the upper-right co
 
 ## Keyboard shortcut
 
-Optionally, set a keyboard shortcut like `Ctrl-D` by going to the bottom of the page on `chrome://extensions/` selecting "Keyboard shortcuts" and configuring the shortcut for the page (makes downloading much easier).
+Optionally, set a keyboard shortcut like `Ctrl-D` by going to the bottom of the page on `chrome://extensions/` selecting "Keyboard shortcuts" and configuring the shortcut for the page (this makes downloading much quicker).
