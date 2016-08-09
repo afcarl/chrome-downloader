@@ -1,5 +1,5 @@
 
-var filename = document.getElementById('firstHeading').innerHTML.trim().toLowerCase().replace(/ /g, '-') + '.txt';
+var filename = document.getElementById('firstHeading').innerHTML.trim().toLowerCase().replace(/ /g, '_') + '.txt';
 var element = document.createElement('a');
 var text = document.getElementById('bodyContent').textContent.trim().replace(/[ \t]+\n/g, '\n').replace(/[ \t]+/g, ' ').replace(/\n+/g, '\n').replace(/\n[ \t]+/g, '\n');
 
